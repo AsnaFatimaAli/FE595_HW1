@@ -20,3 +20,13 @@ plt.ylabel("Amplitude")
 plt.legend(loc='lower left', frameon=False)
 
 plt.show()
+
+plt.plot(x,np.tan(x), color = "red", label = "Tangent") 
+
+plt.title("Tangent for one Period")
+
+plt.xlabel("Frequency")
+
+plt.ylabel("Amplitude")
+
+plt.show()
